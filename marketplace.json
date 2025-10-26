@@ -1,0 +1,33 @@
+{
+  "name": "nserc-skills",
+  "displayName": "NSERC Discovery Grant Skills",
+  "version": "1.0.0",
+  "description": "Skills for writing NSERC Discovery Grant applications with Merit Indicator framework, cross-disciplinary writing guidance, and systematic coverage checks",
+  "author": "Daniel M. Roy",
+  "repository": "https://github.com/droy/nserc-skills",
+  "tags": [
+    "academic-writing",
+    "grant-writing",
+    "nserc",
+    "research-funding",
+    "canada"
+  ],
+  "skills": [
+    {
+      "name": "nserc-discovery-grant",
+      "displayName": "NSERC Discovery Grant",
+      "description": "Comprehensive skill for writing NSERC Discovery Grant applications grounded in the official Merit Indicators framework. Provides systematic coverage checks for the three evaluation criteria (Excellence of Researcher, Merit of Proposal, HQP Training), emphasizes cross-disciplinary writing for general audiences, and integrates Top 10 Tips from experienced reviewers.",
+      "path": "nserc-discovery-grant/SKILL.md",
+      "triggers": [
+        "Writing NSERC Discovery Grant applications",
+        "Reviewing grant proposals",
+        "Merit Indicator coverage checks",
+        "Synthetic reviews of applications",
+        "Working with Application.md or LaTeX attachments"
+      ]
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/droy/nserc-skills",
+  "documentation": "https://github.com/droy/nserc-skills/blob/main/README.md"
+}
