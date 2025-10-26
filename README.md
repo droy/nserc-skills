@@ -21,12 +21,14 @@ Comprehensive skill for writing NSERC Discovery Grant applications with:
 
 ## Installation
 
-### Option 1: Install via GitHub (Recommended)
+### Option 1: Install via Marketplace (Recommended)
 
 ```bash
-# Claude Code will prompt you to install from this repository
-# Or manually clone to ~/.claude/skills/
+/plugin marketplace add droy/nserc-skills
+/plugin install nserc-discovery-grant
 ```
+
+The skill will be automatically available in Claude Code after installation.
 
 ### Option 2: Manual Installation
 
