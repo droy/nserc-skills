@@ -1,6 +1,6 @@
 ---
 name: nserc-discovery-grant
-description: Use when writing or reviewing NSERC Discovery Grant applications - provides Merit Indicator framework, cross-disciplinary writing guidance, and systematic coverage checks for the three evaluation criteria (Excellence of Researcher, Merit of Proposal, HQP Training)
+description: This skill should be used when writing or reviewing NSERC Discovery Grant applications - provides Merit Indicator framework, cross-disciplinary writing guidance, and systematic coverage checks for the three evaluation criteria (Excellence of Researcher, Merit of Proposal, HQP Training)
 ---
 
 # NSERC Discovery Grant Writing
@@ -620,7 +620,10 @@ The repository contains extensive reference materials to inform application deve
 
 **Character counting**:
 ```bash
-# Count characters in a section (whitespace counts!)
+# Use the bundled helper script
+./scripts/count_chars.sh "Section Name"
+
+# Or count manually (whitespace counts!)
 wc -c <<< "$(sed -n '/^# Section Name/,/^#/p' Application.md)"
 ```
 
